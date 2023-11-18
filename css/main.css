@@ -1,0 +1,144 @@
+/* GOOGLE FONT */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+/* BASE STYLES */
+body {
+  font-family: "Rubik", sans-serif;
+  color: #777;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: #222;
+}
+
+a {
+  font-weight: 600;
+  color: #222;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  color: yellowgreen !important;
+}
+
+section {
+  padding: 5rem 0;
+}
+
+/* BUTTON */
+.btn {
+  border-radius: 100px;
+  padding: 1rem 2rem;
+}
+
+.btn-custom {
+  border-color: orangered;
+  background-color: orangered;
+  color: #fff;
+  font-weight: 500;
+}
+
+.btn-custom:hover {
+  background-color: orange;
+  border-color: orange;
+  color: #fff !important;
+}
+
+/* HERO */
+.slide-1 {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent),
+    url(../assets/images/slider-image-1.jpg);
+}
+
+.slide-2 {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent),
+    url(../assets/images/slider-image-2.png);
+}
+
+.slide-3 {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent),
+    url(../assets/images/slider-image-3.jpg);
+}
+
+.bg-cover {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-img {
+  border-radius: 100px 0 100px 0;
+  width: 100%;
+}
+
+.orange-line {
+  background-color: orangered;
+  height: 2px;
+  width: 5rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.section-para {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.menu-card-img {
+  width: 100%;
+  height: 15rem;
+  overflow: hidden;
+}
+
+.menu-card-img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.features {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent),
+    url(../assets/images/slider-image-1.jpg);
+}
+
+.features-icon {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orangered;
+  color: white;
+  margin: 0 auto;
+}
+
+.features-icon > svg {
+  height: 2rem;
+}
+
+.team-meber-img {
+  height: 100px;
+  aspect-ratio: 1; /* width: 100px */
+  overflow: hidden;
+  border-radius: 100px;
+  border: 6px solid orangered;
+  outline: 6px solid rgba(255, 68, 0, 0.25);
+}
+
+textarea {
+  resize: none;
+}
+
+.form-control:focus {
+  border-color: orangered;
+  box-shadow: none;
+}
